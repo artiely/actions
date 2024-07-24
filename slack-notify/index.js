@@ -9,7 +9,7 @@ async function run() {
     axios.post(notifyUrl, {
         blocks: [
           {
-            type: "section",
+            type: "context",
             text: {
               type: "mrkdwn",
               text: text,
