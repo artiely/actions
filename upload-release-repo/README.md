@@ -72,7 +72,7 @@ jobs:
 
 
       - name: Upload files to another repository release
-        uses: ./.github/actions/upload-release-repo
+        uses: artiely/actions/upload-release-repo
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           owner: "tanjie-ola"  # 修改为公开仓库的用户名
