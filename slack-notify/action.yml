@@ -1,0 +1,13 @@
+name: 'Slack Notify'
+description: 'Send a slack notification'
+author: 'Artiely'
+inputs:
+  notifyUrl:
+    description: 'slack notify url'
+    required: true
+  text:
+    description: 'slack notify text'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

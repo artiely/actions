@@ -1,0 +1,15 @@
+{
+  "name": "slack-notify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx ncc build --source-map --minify",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts"
+  },
+  "author": "artiely",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "axios": "^1.7.2"
+  }
+}

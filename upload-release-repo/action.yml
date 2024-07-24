@@ -1,0 +1,22 @@
+name: 'Upload Release Assets'
+description: 'Upload release assets to another repository'
+author: 'Artiely'
+inputs:
+  token:
+    description: 'GitHub Token'
+    required: true
+  owner:
+    description: 'Repository owner'
+    required: true
+  repo:
+    description: 'Repository name'
+    required: true
+  tag:
+    description: 'Release tag'
+    required: true
+  files:
+    description: 'Files to upload'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
