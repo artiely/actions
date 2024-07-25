@@ -1,16 +1,16 @@
 {
-    "name": "upload-release",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "build": "npx ncc build --source-map --minify",
-      "format": "prettier --write **/*.ts",
-      "format-check": "prettier --check **/*.ts"
-    },
-    "author": "artiely",
-    "dependencies": {
-      "@actions/core": "^1.6.0",
-      "@actions/github": "^5.0.0",
-      "glob": "^7.1.6"
-    }
+  "name": "upload-release",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx ncc build --source-map --minify",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts"
+  },
+  "author": "artiely",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "glob": "^7.1.6"
   }
+}
